@@ -1,25 +1,21 @@
-# wd_s <!-- omit in toc -->
+# ng_s <!-- omit in toc -->
 
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fwebdevstudios%2Fwd_s%2Fbadge%3Fref%3Dmain&style=flat)](https://github.com/WebDevStudios/wd_s/actions)
+A starter theme used by Nicolas Gillium forked from ng_s by [WebDevStudios](https://wdunderscores.com).
 
-A starter theme from WebDevStudios. <https://wdunderscores.com>
-
-[![WebDevStudios. Your Success is Our Mission.](https://camo.githubusercontent.com/42f2d2ee1fd163a35dfde75884c89f308d0ae014e313bd3050caa1b98bfde9c6/68747470733a2f2f77656264657673747564696f732e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031382f30342f7764732d6769746875622d62616e6e65722e706e67)](https://webdevstudios.com/contact/)
+[Nicolas Gillium. French freelance web developer.](https://nicolas-gillium.fr/contact/)
 
 ## Table of Contents <!-- omit in toc -->
 
 - [Introduction](#introduction)
 - [Getting Started](#getting-started)
 	- [Prerequisites](#prerequisites)
-	- [Quick Start](#quick-start)
-	- [Advanced](#advanced)
+	- [Install](#install)
 - [Setup](#setup)
 	- [Development](#development)
-- [Contributing and Support](#contributing-and-support)
 
 ## Introduction
 
-Hello there! I am a versatile starter theme known as `wd_s`, or `wdunderscores`. My foundation is built primarily on PHP templates, but I offer the flexibility to incorporate custom templates through the Site Editor. It's worth noting that I'm designed for customization, so it's best not to use me as a Parent Theme. Instead, harness my potential to transform me into the most amazing WordPress theme you can envision – that's what I'm here for!
+Hello there! I am a versatile starter theme known as `ng_s`, or `ngunderscores`. My foundation is built primarily on PHP templates, but I offer the flexibility to incorporate custom templates through the Site Editor. It's worth noting that I'm designed for customization, so it's best not to use me as a Parent Theme. Instead, harness my potential to transform me into the most amazing WordPress theme you can envision – that's what I'm here for!
 
 I come equipped with a host of robust web technologies, including [Tailwind](https://www.tailwindcss.com), [npm](https://www.npmjs.com/), [webpack](https://webpack.js.org/), [Sass](http://sass-lang.com/), and [PostCSS](https://github.com/postcss/postcss). To ensure your code aligns with [WordPress standards](https://make.wordpress.org/core/handbook/best-practices/coding-standards/) and stays clean, I leverage [@wordpress/scripts](https://developer.wordpress.org/block-editor/packages/packages-scripts/) for CSS and JavaScript linting. What's more, I take accessibility seriously and proudly comply with both WCAG 2.1AA and Section 508 standards right from the start.
 
@@ -35,32 +31,28 @@ Because I compile and bundle assets via NPM scripts, basic knowledge of the comm
 - [NPM](https://npmjs.com) (v9+)
 - [Composer](https://getcomposer.org/)
 
-### Quick Start
+### Install
 
-If you want to keep it simple, head over to [https://wdunderscores.com](https://wdunderscores.com) and generate your `wd_s` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme. Alternatively, you could download a pre-built [ZIP](http://wdunderscores.com/wp-content/themes/wdunderscores/inc/prototype/wd_s.zip)
+Set me up manually:
 
-### Advanced
-
-If you want to set me up manually:
-
-1. [Download](http://wdunderscores.com/wp-content/themes/wdunderscores/inc/prototype/wd_s.zip) and extract the zip into your `wp-content/themes` directory and rename `wd_s` to fit your needs.
+1. [Download](https://github.com/NicoGill/ng_s) the repo and extract the zip into your `wp-content/themes` directory and rename `ng_s` to fit your needs.
 
 2. Find & Replace
 
-You'll need to change all instances of the name: `wd_s`.
+You'll need to change all instances of the name: `ng_s`.
 
-- Search for: `@package wd_s` and replace with: `@package project_name` to capture the package name
-- Update `"WebDevStudios\wd_s,wd_s"` to: `"CompanyName\project_name,project_name"` (with double quotes) in phpcs.xml.dist
-- Search for: `WebDevStudios\wd_s` and replace with: `CompanyName\project_name` to capture the namespaces
-- Update `"webdevstudios/wd_s"` to `"companyname/project_name"` (with double quotes) in composer.json
-- Search for: `, 'wd_s'` and replace with: `, 'project_name'` (inside backticks) to capture the text domain
-- Update `Text Domain: wd_s` to: `Text Domain: project_name` in style.css
-- Update `"wd_s"` to: `"project_name"` (with double quotes) in phpcs.xml.dist and package.json
-- Update `'wd_s'` to: `'project_name'` (with single quotes) in inc/setup/setup.php
-- Search for: `wd_s_` and replace with: `project_name_` to capture all the function names
-- Search for: `'wd_s-` and replace with: `'project_name-` to capture prefixed handles
-- Search for `wd_s.pot` and replace with: `project_name.pot` to capture translation files
-- Search for `wdunderscores.test` and replace with: `project_name.test` to match your local development URL
+- Search for: `@package ng_s` and replace with: `@package project_name` to capture the package name
+- Update `"NicolasGillium\ng_s,ng_s"` to: `"CompanyName\project_name,project_name"` (with double quotes) in phpcs.xml.dist
+- Search for: `NicolasGillium\ng_s` and replace with: `CompanyName\project_name` to capture the namespaces
+- Update `"nicolasgillium\ng_s"` to `"companyname/project_name"` (with double quotes) in composer.json
+- Search for: `, 'ng_s'` and replace with: `, 'project_name'` (inside backticks) to capture the text domain
+- Update `Text Domain: ng_s` to: `Text Domain: project_name` in style.css
+- Update `"ng_s"` to: `"project_name"` (with double quotes) in phpcs.xml.dist and package.json
+- Update `'ng_s'` to: `'project_name'` (with single quotes) in inc/setup/setup.php
+- Search for: `ng_s_` and replace with: `project_name_` to capture all the function names
+- Search for: `'ng_s-` and replace with: `'project_name-` to capture prefixed handles
+- Search for `ng_s.pot` and replace with: `project_name.pot` to capture translation files
+- Search for `ngunderscores.test` and replace with: `project_name.test` to match your local development URL
 - Edit the theme information in the header of style.scss to meet your needs
 
 ## Setup
@@ -105,9 +97,3 @@ wp wds create_portable_block myblock --title="This is myblock" --desc="This bloc
 This will scaffold out a block inside of the `blocks` folder in the theme. Replace `myblock` with the name of your block and update the other items `title`, `desc`, `keyword`, `icon`, `namespace` with the appropriate information.
 
 Note: If you don't see your new block available under the block listing in the editor after following the above steps, try changing the namespacing in your block's `block.json` to the following format `your-namespace/blockname` and check again.
-
-## Contributing and Support
-
-Your contributions and [support tickets](https://github.com/WebDevStudios/wd_s/issues) are welcome. Please see our [contributing guidelines](https://github.com/WebDevStudios/wd_s/blob/main/CONTRIBUTING.md) before submitting a pull request.
-
-wd_s is free software, and is released under the terms of the GNU General Public License version 2 or any later version. See [LICENSE.md](https://github.com/WebDevStudios/wd_s/blob/main/LICENSE.md) for complete license.
