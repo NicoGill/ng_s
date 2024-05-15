@@ -2,10 +2,10 @@
 /**
  * Display the customizer header scripts.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Display the customizer header scripts.
@@ -16,7 +16,7 @@ namespace WebDevStudios\wd_s;
  */
 function print_customizer_header_scripts() {
 	// Check for header scripts.
-	$scripts = get_theme_mod( 'wd_s_header_scripts' );
+	$scripts = get_theme_mod( 'ng_s_header_scripts' );
 
 	// None? Bail...
 	if ( ! $scripts ) {

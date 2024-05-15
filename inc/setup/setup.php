@@ -2,10 +2,10 @@
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -20,11 +20,11 @@ function setup() {
 	/**
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on wd_s, refer to the
+	 * If you're building a theme based on ng_s, refer to the
 	 * README.md file in this theme to find and replace all
-	 * references of wd_s
+	 * references of ng_s
 	 */
-	load_theme_textdomain( 'wd_s', get_template_directory() . '/build/languages' );
+	load_theme_textdomain( 'ng_s', get_template_directory() . '/build/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -48,7 +48,7 @@ function setup() {
 	// Register navigation menus.
 	register_nav_menus(
 		[
-			'primary' => esc_html__( 'Primary Menu', 'wd_s' ),
+			'primary' => esc_html__( 'Primary Menu', 'ng_s' ),
 		]
 	);
 

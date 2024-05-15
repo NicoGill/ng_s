@@ -4,10 +4,10 @@
  *
  * Enable or disable certain functionality to harden WordPress.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Remove generator meta tags.

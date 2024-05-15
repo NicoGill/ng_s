@@ -4,11 +4,11 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package wd_s
+ * @package ng_s
  */
 
-use function WebDevStudios\wd_s\print_comments;
-use function WebDevStudios\wd_s\main_classes;
+use function NicolasGillium\ng_s\print_comments;
+use function NicolasGillium\ng_s\main_classes;
 
 get_header(); ?>
 

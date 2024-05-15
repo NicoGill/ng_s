@@ -2,10 +2,10 @@
 /**
  * Get an attachment ID from it's URL.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Get an attachment ID from it's URL.

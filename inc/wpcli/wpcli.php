@@ -2,13 +2,13 @@
 /**
  * Set up wp-cli.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 use WP_CLI;
-use const WebDevStudios\wd_s\ROOT_PATH;
+use const NicolasGillium\ng_s\ROOT_PATH;
 
 /**
  * Registers our command when cli get's initialized.

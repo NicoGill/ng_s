@@ -2,10 +2,10 @@
 /**
  * Register custom block category(ies).
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Register_wds_category
@@ -17,8 +17,8 @@ namespace WebDevStudios\wd_s;
  */
 function register_wds_category( $categories ) {
 	$custom_block_category = [
-		'slug'  => __( 'wds-blocks-category', 'wd_s' ),
-		'title' => __( 'WDS Blocks', 'wd_s' ),
+		'slug'  => __( 'wds-blocks-category', 'ng_s' ),
+		'title' => __( 'WDS Blocks', 'ng_s' ),
 	];
 
 	$categories_sorted    = [];

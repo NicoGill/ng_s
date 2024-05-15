@@ -1,17 +1,17 @@
 <?php
 /**
- * WDS wd_s functions and definitions.
+ * NGS ng_s functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 // Define a global path and url.
-define( 'WebDevStudios\wd_s\ROOT_PATH', trailingslashit( get_template_directory() ) );
-define( 'WebDevStudios\wd_s\ROOT_URL', trailingslashit( get_template_directory_uri() ) );
+define( 'NicolasGillium\ng_s\ROOT_PATH', trailingslashit( get_template_directory() ) );
+define( 'NicolasGillium\ng_s\ROOT_URL', trailingslashit( get_template_directory_uri() ) );
 
 /**
  * Get all the include files for the theme.

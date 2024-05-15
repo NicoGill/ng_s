@@ -2,10 +2,10 @@
 /**
  * Removes or Adjusts the prefix on category archive page titles.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Removes or Adjusts the prefix on category archive page titles.

@@ -2,10 +2,10 @@
 /**
  * Retrieve the URL of the custom logo uploaded, if one exists.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Retrieve the URL of the custom logo uploaded, if one exists.

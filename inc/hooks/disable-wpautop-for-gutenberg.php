@@ -2,10 +2,10 @@
 /**
  * Disables wpautop to remove empty p tags in rendered Gutenberg blocks.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Disables wpautop to remove empty p tags in rendered Gutenberg blocks.

@@ -2,10 +2,10 @@
 /**
  * Set up the theme customizer.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Removes default customizer fields that we generally don't use.
@@ -42,7 +42,7 @@ add_action( 'customize_register', __NAMESPACE__ . '\include_custom_controls', -9
  * @author WebDevStudios
  */
 function customize_scripts() {
-	wp_enqueue_script( 'wd_s-customize-livepreview', get_template_directory_uri() . '/inc/customizer/assets/scripts/livepreview.js', [ 'jquery', 'customize-preview' ], '1.0.0', true );
+	wp_enqueue_script( 'ng_s-customize-livepreview', get_template_directory_uri() . '/inc/customizer/assets/scripts/livepreview.js', [ 'jquery', 'customize-preview' ], '1.0.0', true );
 }
 add_action( 'customize_preview_init', __NAMESPACE__ . '\customize_scripts' );
 
@@ -60,7 +60,7 @@ function selective_refresh_support( $wp_customize ) {
 	$settings = [
 		'blogname'            => '.site-title a',
 		'blogdescription'     => '.site-description',
-		'wd_s_copyright_text' => '.site-info',
+		'ng_s_copyright_text' => '.site-info',
 	];
 
 	// Loop through, and add selector partials.
@@ -88,7 +88,7 @@ function live_preview_support( $wp_customize ) {
 		'blogname',
 		'blogdescription',
 		'header_textcolor',
-		'wd_s_copyright_text',
+		'ng_s_copyright_text',
 	];
 
 	// Loop through and add the live preview to each setting.

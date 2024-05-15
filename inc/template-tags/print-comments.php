@@ -2,10 +2,10 @@
 /**
  * Display the comments if the count is more than 0.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Display the comments if the count is more than 0.

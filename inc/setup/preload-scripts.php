@@ -2,10 +2,10 @@
 /**
  * Preload styles and scripts.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Preload styles and scripts.

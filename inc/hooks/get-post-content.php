@@ -2,10 +2,10 @@
 /**
  * Filters WYSIWYG content with the_content filter.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Filters WYSIWYG content with the_content filter.

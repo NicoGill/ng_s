@@ -2,10 +2,10 @@
 /**
  * Adds OG tags to the head for better social sharing.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Adds OG tags to the head for better social sharing.
@@ -38,7 +38,7 @@ function add_og_tags() {
 	$default_url = get_permalink();
 
 	// Set our base description.
-	$default_base_description = ( get_bloginfo( 'description' ) ) ? get_bloginfo( 'description' ) : esc_html__( 'Visit our website to learn more.', 'wd_s' );
+	$default_base_description = ( get_bloginfo( 'description' ) ) ? get_bloginfo( 'description' ) : esc_html__( 'Visit our website to learn more.', 'ng_s' );
 
 	// Set the card type.
 	$default_type = 'article';
@@ -78,13 +78,13 @@ function add_og_tags() {
 
 		$term_name      = single_term_title( '', false );
 		$card_title     = $term_name . ' - ' . $default_title;
-		$specify        = ( is_category() ) ? esc_html__( 'categorized in', 'wd_s' ) : esc_html__( 'tagged with', 'wd_s' );
+		$specify        = ( is_category() ) ? esc_html__( 'categorized in', 'ng_s' ) : esc_html__( 'tagged with', 'ng_s' );
 		$queried_object = get_queried_object();
 		$card_url       = get_term_link( $queried_object );
 		$card_type      = 'website';
 
 		// Translators: get the term name.
-		$card_long_description = sprintf( esc_html__( 'Posts %1$s %2$s.', 'wd_s' ), $specify, $term_name );
+		$card_long_description = sprintf( esc_html__( 'Posts %1$s %2$s.', 'ng_s' ), $specify, $term_name );
 		$card_description      = $card_long_description;
 	}
 
@@ -97,7 +97,7 @@ function add_og_tags() {
 		$card_type   = 'website';
 
 		// Translators: get the search term.
-		$card_long_description = sprintf( esc_html__( 'Search results for %s.', 'wd_s' ), $search_term );
+		$card_long_description = sprintf( esc_html__( 'Search results for %s.', 'ng_s' ), $search_term );
 		$card_description      = $card_long_description;
 	}
 

@@ -5,17 +5,17 @@
  * Categories: footer
  * Block Types: core/template-part/footer
  *
- * @package wd_s
+ * @package ng_s
  */
 
 // Determine whether to display site logo or site title.
 $wds_site_info = has_custom_logo() ? '<!-- wp:site-logo {"align":"center"} /-->' : '<!-- wp:site-title {"level":2,"textAlign":"center"} /-->';
 
 // Generate the copyright information.
-$wds_copyright_info = esc_html__( ' Copyright &copy; ', 'wd_s' ) . esc_attr( gmdate( 'Y' ) ) . esc_html__( '. All Rights Reserved.', 'wd_s' );
+$wds_copyright_info = esc_html__( ' Copyright &copy; ', 'ng_s' ) . esc_attr( gmdate( 'Y' ) ) . esc_html__( '. All Rights Reserved.', 'ng_s' );
 
 // Generate the theme attribution.
-$wds_theme_info = esc_html__( ' Proudly powered by WordPress. ', 'wd_s' ) . '<a href="' . esc_url( 'https://webdevstudios.com/' ) . '">' . esc_html__( 'WebDevStudios', 'wd_s' ) . '</a>' . esc_html__( ' is a WD3 Party.', 'wd_s' );
+$wds_theme_info = esc_html__( ' Proudly powered by WordPress. ', 'ng_s' ) . '<a href="' . esc_url( 'https://webdevstudios.com/' ) . '">' . esc_html__( 'WebDevStudios', 'ng_s' ) . '</a>' . esc_html__( ' is a WD3 Party.', 'ng_s' );
 ?>
 
 <!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->

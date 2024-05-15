@@ -1,21 +1,21 @@
 <?php
 /**
- * Registers custom block pattern categories for the WD_S theme.
+ * Registers custom block pattern categories for the NG_S theme.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
- * Registers custom block pattern categories for the WD_S theme.
+ * Registers custom block pattern categories for the NG_S theme.
  */
 function register_custom_block_pattern_category() {
 
 	register_block_pattern_category(
 		'wds-patterns',
 		[
-			'label' => __( 'WDS Patterns', 'wd_s' ),
+			'label' => __( 'WDS Patterns', 'ng_s' ),
 		]
 	);
 

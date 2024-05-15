@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package wd_s
+ * @package ng_s
  */
 
 ?>
@@ -22,7 +22,7 @@
 
 	<?php
 	wp_head();
-	use function WebDevStudios\wd_s\print_header_block;
+	use function NicolasGillium\ng_s\print_header_block;
 	?>
 
 </head>

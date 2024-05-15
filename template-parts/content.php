@@ -4,13 +4,13 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package wd_s
+ * @package ng_s
  */
 
-use function WebDevStudios\wd_s\print_post_date;
-use function WebDevStudios\wd_s\print_post_author;
-use function WebDevStudios\wd_s\print_entry_footer;
-use function WebDevStudios\wd_s\print_post_taxonomies;
+use function NicolasGillium\ng_s\print_post_date;
+use function NicolasGillium\ng_s\print_post_author;
+use function NicolasGillium\ng_s\print_entry_footer;
+use function NicolasGillium\ng_s\print_post_taxonomies;
 ?>
 
 <article <?php post_class( 'post-container' ); ?>>
@@ -49,7 +49,7 @@ use function WebDevStudios\wd_s\print_post_taxonomies;
 			sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. */
-					esc_html__( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'wd_s' ),
+					esc_html__( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'ng_s' ),
 					[
 						'span' => [
 							'class' => [],
@@ -62,7 +62,7 @@ use function WebDevStudios\wd_s\print_post_taxonomies;
 
 		wp_link_pages(
 			[
-				'before' => '<div class="page-links is-layout-constrained has-global-padding">' . esc_attr__( 'Pages:', 'wd_s' ),
+				'before' => '<div class="page-links is-layout-constrained has-global-padding">' . esc_attr__( 'Pages:', 'ng_s' ),
 				'after'  => '</div>',
 			]
 		);

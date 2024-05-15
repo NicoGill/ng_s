@@ -4,10 +4,10 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Prints HTML with author information for the current post.
@@ -20,7 +20,7 @@ function print_post_author( $args = [] ) {
 
 	// Set defaults.
 	$defaults = [
-		'author_text' => esc_html__( 'by', 'wd_s' ),
+		'author_text' => esc_html__( 'by', 'ng_s' ),
 	];
 
 	// Parse args.

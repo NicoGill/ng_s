@@ -4,10 +4,10 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Prints HTML with date information for the current post.
@@ -20,7 +20,7 @@ function print_post_date( $args = [] ) {
 
 	// Set defaults.
 	$defaults = [
-		'date_text'   => esc_html__( 'Posted on', 'wd_s' ),
+		'date_text'   => esc_html__( 'Posted on', 'ng_s' ),
 		'date_format' => get_option( 'date_format' ),
 	];
 

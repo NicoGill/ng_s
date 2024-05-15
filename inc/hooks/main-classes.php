@@ -2,10 +2,10 @@
 /**
  * Adds custom classes to apply to <main>
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Adds custom classes to apply to <main>
@@ -24,7 +24,7 @@ function main_classes( $new_classes ) {
 		$classes = array_merge( $classes, $new_classes );
 	}
 
-	$classes = apply_filters( 'wd_s_main_classes', $classes );
+	$classes = apply_filters( 'ng_s_main_classes', $classes );
 
 	return implode( ' ', $classes );
 }

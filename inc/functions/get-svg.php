@@ -2,10 +2,10 @@
 /**
  * Return SVG markup.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Return SVG markup.
@@ -19,12 +19,12 @@ namespace WebDevStudios\wd_s;
 function get_svg( $args = [] ) {
 	// Make sure $args are an array.
 	if ( empty( $args ) ) {
-		return esc_attr__( 'Please define default parameters in the form of an array.', 'wd_s' );
+		return esc_attr__( 'Please define default parameters in the form of an array.', 'ng_s' );
 	}
 
 	// Define an icon.
 	if ( false === array_key_exists( 'icon', $args ) ) {
-		return esc_attr__( 'Please define an SVG icon filename.', 'wd_s' );
+		return esc_attr__( 'Please define an SVG icon filename.', 'ng_s' );
 	}
 
 	// Set defaults.

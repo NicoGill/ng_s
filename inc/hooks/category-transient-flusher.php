@@ -1,14 +1,14 @@
 <?php
 /**
- * Flush out the transients used in wd_s_categorized_blog.
+ * Flush out the transients used in ng_s_categorized_blog.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
- * Flush out the transients used in wd_s_categorized_blog.
+ * Flush out the transients used in ng_s_categorized_blog.
  *
  * @author WebDevStudios
  *
@@ -20,7 +20,7 @@ function category_transient_flusher() {
 	}
 
 	// Like, beat it. Dig?
-	return delete_transient( 'wd_s_categories' );
+	return delete_transient( 'ng_s_categories' );
 }
 
 add_action( 'delete_category', __NAMESPACE__ . '\category_transient_flusher' );

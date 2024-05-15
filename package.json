@@ -1,21 +1,21 @@
 {
-	"name": "wd_s",
-	"version": "4.0.0",
+	"name": "ng_s",
+	"version": "4.1.0",
 	"private": true,
-	"description": "A starter theme from WebDevStudios.",
-	"author": "WebDevStudios <contact@webdevstudios.com>",
+	"description": "A starter theme from Nicolas Gillium.",
+	"author": "Nicolas Gillium <contact@nicolas-gillium.fr>",
 	"license": "GPL-2.0-or-later",
 	"keywords": [
 		"WordPress",
 		"Theme"
 	],
-	"homepage": "https://github.com/WebDevStudios/wd_s/#readme",
+	"homepage": "https://github.com/NicoGill/ng_s/#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/WebDevStudios/wd_s.git"
+		"url": "git+https://github.com/NicoGill/ng_s.git"
 	},
 	"bugs": {
-		"url": "https://github.com/WebDevStudios/wd_s/issues"
+		"url": "https://github.com/NicoGill/ng_s/issues"
 	},
 	"engines": {
 		"node": ">=18",
@@ -81,7 +81,7 @@
 		"report": "composer run-script report",
 		"packages-update": "wp-scripts packages-update",
 		"start": "cross-env NODE_ENV=development wp-scripts start",
-		"sync": "browser-sync start --https --proxy https://wdunderscores.test --no-open --files 'build/*.*, **/*.html, **/*.php, !node_modules/**/*.html'",
+		"sync": "browser-sync start --https --proxy https://ngunderscores.test --no-open --files 'build/*.*, **/*.html, **/*.php, !node_modules/**/*.html'",
 		"version": "auto-changelog -p && git add CHANGELOG.md",
 		"watch": "run-p start sync"
 	}

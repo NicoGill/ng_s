@@ -2,10 +2,10 @@
 /**
  * Customizer sections.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 /**
  * Register the section sections.
@@ -17,9 +17,9 @@ function customize_sections( $wp_customize ) {
 
 	// Register additional scripts section.
 	$wp_customize->add_section(
-		'wd_s_additional_scripts_section',
+		'ng_s_additional_scripts_section',
 		[
-			'title'    => esc_html__( 'Additional Scripts', 'wd_s' ),
+			'title'    => esc_html__( 'Additional Scripts', 'ng_s' ),
 			'priority' => 10,
 			'panel'    => 'site-options',
 		]
@@ -27,9 +27,9 @@ function customize_sections( $wp_customize ) {
 
 	// Register a footer section.
 	$wp_customize->add_section(
-		'wd_s_footer_section',
+		'ng_s_footer_section',
 		[
-			'title'    => esc_html__( 'Footer Customizations', 'wd_s' ),
+			'title'    => esc_html__( 'Footer Customizations', 'ng_s' ),
 			'priority' => 90,
 			'panel'    => 'site-options',
 		]

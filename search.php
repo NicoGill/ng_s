@@ -4,11 +4,11 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package wd_s
+ * @package ng_s
  */
 
-use function WebDevStudios\wd_s\print_numeric_pagination;
-use function WebDevStudios\wd_s\main_classes;
+use function NicolasGillium\ng_s\print_numeric_pagination;
+use function NicolasGillium\ng_s\main_classes;
 
 get_header(); ?>
 

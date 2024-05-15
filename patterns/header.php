@@ -5,7 +5,7 @@
  * Categories: header
  * Block Types: core/template-part/header
  *
- * @package wd_s
+ * @package ng_s
  */
 
 // Determine whether to display site logo or site title.

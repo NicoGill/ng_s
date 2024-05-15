@@ -2,13 +2,13 @@
 /**
  * Add a CLI command for scaffolding a block.
  *
- * @package wd_s
+ * @package ng_s
  */
 
-namespace WebDevStudios\wd_s;
+namespace NicolasGillium\ng_s;
 
 use WP_CLI;
-use const WebDevStudios\wd_s\ROOT_PATH;
+use const NicolasGillium\ng_s\ROOT_PATH;
 
 // Exit if class already exists (for example when the plugin `WDS ACF Blocks` is active).
 if ( class_exists( 'Blocks_Scaffold' ) ) {
@@ -18,7 +18,7 @@ if ( class_exists( 'Blocks_Scaffold' ) ) {
 /**
  * Class Blocks_Scaffold
  *
- * @package WebDevStudios\wd_s
+ * @package NicolasGillium\ng_s
  */
 class Blocks_Scaffold {
 
@@ -50,7 +50,7 @@ class Blocks_Scaffold {
 	 *
 	 * [--namespace=<blocknamespace>]
 	 * : Block Namespace.
-	 * : Default: WebDevStudios\wd_s
+	 * : Default: NicolasGillium\ng_s
 	 *
 	 * ## EXAMPLES
 	 *
